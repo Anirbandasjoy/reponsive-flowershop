@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: rgb(48, 47, 47);
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menu-logo:hover {
+  cursor: pointer;
+}
+.header-container:hover {
+  cursor: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0U9SqmpYcaNDHpJwFipBmV1YziaIvbZCBG59Sj1S9HA&s"),
+    auto;
+}
+.menu-items {
+  display: flex;
+  gap: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.menu-items > li:hover {
+  color: rgb(197, 197, 66);
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.menu-items li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(208, 208, 185);
+}
+.menu-items li a:hover {
+  color: rgb(231, 158, 158);
+  transition: 0.3s;
+}
+.item {
+  color: rgb(197, 197, 66);
+}
+.item:hover {
+}
+
+.name {
+  color: rgb(225, 84, 77);
+  z-index: 20;
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.bannerContainer {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  gap: 30px;
+  margin: auto;
+  margin-top: 11vh;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #272727;
+}
+.banner p {
+  color: rgba(39, 39, 39, 0.6);
+}
+.btn {
+  padding: 20px 43px;
+  background-color: #e55473;
+  border: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #e55473;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid gray;
+  transition: 0.4s;
+  color: gray;
+}
+.bannerPhoto img {
+  height: 600px;
+}
+.featureContainer {
+  margin: 80px 0;
+}
+.featureText {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+.featureText h1 {
+  font-size: 32px;
+  margin-bottom: 22px;
+  color: #272727;
+}
+.featureText p {
+  margin-bottom: 18px;
+  color: gray;
+  font-size: 14px;
+}
+.fetureItems {
+  display: flex;
+  justify-content: center;
+}
+.fetureItems .featureItem img {
+  background-color: #a7216226;
+  width: 190px;
+  height: 300px;
+  margin: 9px;
+  text-align: center;
+  padding: 70px 70px 0px 70px;
+
+  border-radius: 50% 50% 0 0;
+}
+.fetureItems .fetureItem-2 img {
+  background-color: #0597a026;
+}
+.fetureItems .fetureItem-3 img {
+  background-color: #477d1126;
+}
+.fetureItems .featureItem h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+.groupContainer {
+  margin-bottom: 80px;
+}
+.groups {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  background-color: #2727270d;
+  padding: 40px 120px;
+}
+.signUpContainer {
+  margin: 80px 0;
+  background-color: #e554730d;
+  padding: 60px 0;
+}
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  gap: 50px;
+}
+.signUp .signUpText {
+  text-align: center;
+}
+.signUpText h1 {
+  margin-bottom: 17px;
+  color: #272727;
+}
+.signUpText h1 span {
+  color: #e55473;
+}
+.signUpImage img {
+  width: 250px;
+  height: auto;
+}
+.InstagramContainer {
+  margin-bottom: 80px;
+}
+.instagramText {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.instagramText h1 {
+  margin-bottom: 12px;
+  font-size: 30px;
+  color: #272727;
+}
+.instagramText p {
+  line-height: 2;
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+}
+.instagramImages img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.instagramImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formBtn {
+  display: inline-block;
+}
+.contactContainer {
+  margin: 80px 0;
+}
+.contact {
+  margin: 80px 0;
+  max-width: 1040px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Flower Asset/Rectangle 9.png");
+  background-position: center;
+  padding: 110px;
+  text-align: center;
+}
+.contactForm input {
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  padding: 18px;
+}
+.footerContainer {
+  text-align: center;
+  background-color: #111010;
+  padding: 100px;
+}
+.footerText {
+  max-width: 500px;
+  margin: auto;
+}
+.footerText h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+}
+.footerText h1 span {
+  color: #e55473;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+.footerText p {
+  color: #ffffffe5;
+  margin-top: 12px;
+  font-size: 15px;
+}
+.footerText .Copyright {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.4);
+
+  font-size: 16px;
+
+  font-weight: 400;
+}
+
+.hiden {
+  display: none;
+}
+
+/* responsive css write  */
+
+/* small device  */
+
+@media screen and (max-width: 576px) {
+  .banner,
+  .fetureItems,
+  .groups,
+  .signUp,
+  .instagramImages,
+  .header-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .bannerText,
+  .fetureItems,
+  .groups {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .bannerPhoto {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPhoto img {
+    width: 80%;
+    height: auto;
+  }
+  .contactForm input {
+    width: 90%;
+  }
+  .contact,
+  .footerContainer {
+    padding: 30px 10px;
+  }
+  .contactText {
+    margin-bottom: 10px;
+  }
+  .header-container {
+    padding: 0;
+  }
+  .menu-items {
+    margin-bottom: 10px;
+  }
+}
+
+/* medium device  */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner,
+  .groups,
+  .signUp,
+  .header-container {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .fetureItems,
+  .instagramImages {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-items {
+    margin-bottom: 10px;
+  }
+}

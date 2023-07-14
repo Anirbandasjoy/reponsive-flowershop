@@ -327,6 +327,8 @@
   }
   .bannerContainer {
     margin-top: 8rem;
+    background: none;
+    border-bottom: 1px solid gray;
   }
 
   .menu-items {
@@ -355,6 +357,8 @@
   }
   .bannerContainer {
     margin-top: 8rem;
+    background: none;
+    border-bottom: 1px solid gray;
   }
   .fetureItems,
   .instagramImages {

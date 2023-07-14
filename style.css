@@ -282,7 +282,6 @@
 /* small device  */
 
 @media screen and (max-width: 576px) {
-  .banner,
   .fetureItems,
   .groups,
   .signUp,
@@ -291,7 +290,15 @@
     flex-direction: column;
     height: auto;
   }
-
+  .banner {
+    flex-direction: column-reverse;
+    height: auto;
+    text-align: center;
+    padding: 3rem 0.4rem;
+  }
+  .header-container {
+    padding: 1rem 0;
+  }
   .bannerText,
   .fetureItems,
   .groups {
@@ -318,9 +325,10 @@
   .contactText {
     margin-bottom: 10px;
   }
-  .header-container {
-    padding: 0;
+  .bannerContainer {
+    margin-top: 8rem;
   }
+
   .menu-items {
     margin-bottom: 10px;
   }
@@ -329,7 +337,6 @@
 /* medium device  */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .banner,
   .groups,
   .signUp,
   .header-container {
@@ -337,8 +344,17 @@
     height: auto;
     text-align: center;
   }
+  .banner {
+    flex-direction: column-reverse;
+    height: auto;
+    text-align: center;
+    padding: 3rem 0.4rem;
+  }
   .menu-logo {
     padding-top: 15px;
+  }
+  .bannerContainer {
+    margin-top: 8rem;
   }
   .fetureItems,
   .instagramImages {
